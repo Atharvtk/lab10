@@ -34,7 +34,7 @@ plot(mtcars$wt, mtcars$mpg,
      ylab = "Miles per Gallon (MPG)",
      col = "red",       
      pch = 19,               
-     cex = 1.3)              
+     cex = 1.35)              
 grid()
 
 abline(lm(mpg ~ wt, data = mtcars), col = "darkblue", lwd = 2)
@@ -108,5 +108,6 @@ pie(cyl_counts,
     main = "Proportion of Cars by Engine Cylinders",
     col = c("green", "yellow", "red"),
     labels = labels)
+
 
 
